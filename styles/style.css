@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-.group {
-    display: flow-root;
-}
-
 
 /* More base styles */
 
@@ -66,25 +62,6 @@ img {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
-}
-
-
-/* helpers */
-
-.mt1 {
-    margin-top: 50px;
-}
-
-.mt2 {
-    margin-top: 100px;
-}
-
-.mt3 {
-    margin-top: 150px;
-}
-
-.tw {
-    color: #fff;
 }
 
 header {
@@ -332,6 +309,47 @@ header {
 
 .grid .col {
     width: 100%;
+}
+
+@media(max-width:768px) {
+    .grid {
+        flex-wrap: wrap;
+    }
+}
+
+
+/* flickity */
+
+.carousel-cell {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    background-color: #6adf91;
+    text-align: center;
+    line-height: 350px;
+}
+
+
+/* helpers */
+
+.mt1 {
+    margin-top: 50px;
+}
+
+.mt2 {
+    margin-top: 100px;
+}
+
+.mt3 {
+    margin-top: 150px;
+}
+
+.tw {
+    color: #fff;
+}
+
+.group {
+    display: flow-root;
 }
 
 
