@@ -70,6 +70,7 @@ header {
     left: 50%;
     display: flex;
     /* background-color: rgb(42, 42, 44); */
+    background-color: black;
     background: transparent;
     color: white;
     padding: 30px;
@@ -131,13 +132,19 @@ header {
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
+    /* width: 50px; */
+    /* height: 50px; */
     min-width: 50px;
     min-height: 50px;
     margin: auto 0;
     /* border: 2px solid red; */
 }
+
+
+/* .logo img {
+    width: auto;
+    height: auto;
+} */
 
 
 /* cta */
@@ -159,7 +166,7 @@ header {
 /* button */
 
 .button {
-    background-color: orange;
+    background-color: #316bff;
     display: inline-block;
     padding: 20px 30px;
     border-radius: 8px;
@@ -177,9 +184,8 @@ header {
     align-items: center;
     height: 100vh;
     width: 100%;
-    background: linear-gradient(90deg, rgb(128, 128, 128, .8), rgb(82, 79, 79, .3) 70%), url("../images/titan-duel.png") no-repeat center center;
+    background: linear-gradient(90deg, rgb(128, 128, 128, .8), rgb(82, 79, 79, .3) 70%), url("../media/images/blur_office.png") no-repeat center center;
     background-size: cover;
-    z-index: 0;
 }
 
 .hero__content {
